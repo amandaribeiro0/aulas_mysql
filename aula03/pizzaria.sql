@@ -44,7 +44,6 @@ unindo os dados da tabela tb_pizzas com os dados da tabela tb_categorias.*/
 SELECT * FROM tb_pizzas P
 INNER JOIN tb_categorias C 
 ON P.categoria_id = C.id;
-
 /*Faça um SELECT utilizando a cláusula INNER JOIN, unindo os dados da tabela
  tb_pizzas com os dados da tabela tb_categorias, onde traga apenas as pizzas 
  que pertençam a uma categoria específica (Exemplo: Todas as pizzas que são doce).*/
