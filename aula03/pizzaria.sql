@@ -52,6 +52,4 @@ SELECT * FROM tb_pizzas P
 INNER JOIN tb_categorias C 
 ON P.categoria_id = C.id
 WHERE P.categoria_id = 1;
-
-
  
