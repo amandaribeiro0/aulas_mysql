@@ -13,7 +13,7 @@ CREATE TABLE tb_produtos(
     valor decimal(8,2) not null,
     estoque int not null,
     categorias_id bigint not null,
-    CONSTRAINT fk_categoria FOREIGN KEY(categorias_id) REFERENCES tb_categorias (id)
+    FOREIGN KEY(categorias_id) REFERENCES tb_categorias (id)
 );
 
 INSERT INTO tb_categorias (nome)
